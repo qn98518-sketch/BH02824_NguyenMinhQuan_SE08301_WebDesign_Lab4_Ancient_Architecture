@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ancient Architecture</title>
+
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+        background-color: #dfc285;
+    }
+
+    .site-header{
+        margin-bottom: 20px;
+    }
+
+    .site-header ul{
+        font-family: sans-serif;
+        font-size: 25px;
+        display: flex;
+        gap: 30px;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        color: black;
+    }
+
+    .site-header ul li{
+        list-style: none;
+    }
+
+    .site-header ul li a{
+        text-decoration: none;
+        color: inherit;
+        cursor: pointer;
+    }
+
+    .demo-title{
+        font-family: 'Patrick Hand', cursive;
+        letter-spacing: 3px;
+        font-size: 55px;
+        text-align:center;
+        color:black;
+        padding-bottom:20px;
+    }
+
+    main{
+        display: block; 
+        margin: 0 auto;
+        width: 90%;
+        max-width: 1000px;
+    }
+
+    .plan-cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: stretch;
+        gap: 24px;
+    }
+
+    .plan-cards article{
+        flex: 1;
+        min-width: 0;
+    }
+
+    .plan-cards article h3{
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .plan-cards article h5{
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .plan-cards article a{
+        text-decoration: none; 
+        color: #007bff; 
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .plan-card {
+        flex: 1;
+        min-width: 0;
+        padding: 20px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .plan-card img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 8px;
+        display: block;
+    }
+
+    .site-footer{
+        background-color: #dfc285;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .post-buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 8px;
+        margin-top: auto;
+    }
+
+    .btn-comment,
+    .btn-view-post {
+        display: inline-block;
+        background-color: #603813;
+        color: #ffffff;
+        text-decoration: none;
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 6px 12px;
+        border-radius: 3px;
+        border: none;
+        cursor: pointer;
+        text-transform: uppercase;
+        white-space: nowrap;
+    }
+
+    .btn-comment {
+        flex: 0 0 auto;
+    }
+
+    .btn-view-post {
+        flex: 0 0 auto;
+    }
+
+    .btn-comment:hover,
+    .btn-view-post:hover {
+        background-color: #4a2a0e;
+    }
+</style>
+<body>
+    <nav class="site-header">
+        <ul>
+            <li><a href="index.html" style="color: #007bff;">Home</a></li>
+            <li><a href="about.html">Services</a></li>
+            <li><a href="contact.html">Blog</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="contact.html" style="color: #007bff;">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="demo-title">Ancient Architecture</div>
+    <main>
+        <img src="images/ancient_structure_pic1.png" alt="Ancient Structure" style="display: block; margin: 0 auto; width: 90%; max-width: 1000px; border-radius: 10px; margin-bottom: 20px;">
+        <div class="plan-cards">
+            <article class="plan-card">
+                <h3>Ancient Roman Architecture</h3>
+                <h5>Posted on 01.01.2017 by <a href="">Someone</a></h5>
+                <img src="images/ancient_structure_pic2.png" alt="Ancient Roman Architecture">
+                <p>
+                    Ancient Roman architecture adopted the external language of classical Greek architecture for the purposes of the ancient Romans, but grew so different from Greek buildings as to become a new architectural style. The two styles are often considered one body of classical architecture. Roman architecture flourished in the Roman Republic and even more so under the Empire, when the great majority of surviving buildings were constructed. It used new materials, particularly concrete, and newer technologies such as the arch and the dome, to make buildings that were typically strong and well-engineered. Large numbers remain in some form across the empire, sometimes complete and still in use.
+                </p>
+                <div class="post-buttons">
+                    <a href="#" class="btn-comment">0 Comments</a>
+                    <a href="#" class="btn-view-post">View Post</a>
+                </div>
+            </article>
+            <article class="plan-card">
+                <h3>Ancient Greek Architecture</h3>
+                <h5>Posted on 01.01.2017 by <a href="">Someone</a></h5>
+                <img src="images/ancient_structure_pic3.png" alt="Ancient Greek Architecture">
+                <p>
+                    The architecture of ancient Greece is the architecture produced by the Greek-speaking people (Hellenic people) whose culture flourished on the Greek mainland, the Peloponnese, the Aegean Islands, and in colonies in Anatolia and Italy for a period from about 900 BC until the 1st century AD, with the earliest remaining architectural works dating from around 600 BC.[1] Ancient Greek architecture is best known from its temples, many of which are found throughout the region, mostly as ruins but many substantially intact. The second important type of building that survives all over the Hellenic world is the open-air theatre, with the earliest dating from around 525-480 BC.
+                </p>
+                <div class="post-buttons">
+                    <a href="#" class="btn-comment">0 Comments</a>
+                    <a href="#" class="btn-view-post">View Post</a>
+                </div>
+            </article>
+            <article class="plan-card">
+                <h3>Ancient Indian Architecture</h3>
+                <h5>Posted on 01.01.2017 by <a href="">Someone</a></h5>
+                <img src="images/ancient_structure_pic4.png" alt="Ancient Indian Architecture">
+                <p>
+                    Indian architecture is as old as the history of the civilization. The earliest remains of recognizable building activity in the India dates back to the Indus Valley cities. Among India's ancient architectural remains, the most characteristic are the temples, Chaityas, Viharas, Stupas and other religious structures. In ancient India, temple architecture of high standard developed in almost all regions. The distinct architectural style of temple construction in different parts was a result of geographical, climatic, ethnic, racial, historical and linguistic diversities. The Rock-cut structures present the most spectacular piece of ancient Indian art specimen. Most of the rock-cut structures were related to various religious communities.
+                </p>
+                <div class="post-buttons">
+                    <a href="#" class="btn-comment">0 Comments</a>
+                    <a href="#" class="btn-view-post">View Post</a>
+                </div>
+            </article>
+        </div>
+    </main>
+    <footer class="site-footer">
+        © Copyright OldWorld by Anonymous Photos by Anonymous
+    </footer>
+</body>
+</html>
